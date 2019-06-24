@@ -21,7 +21,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="app sidebar-show">
+<body class="app sidebar-show sidebar-fixed">
 <?php $this->beginBody() ?>
 <!-- Header -->
 <header class="app-header navbar">
@@ -86,20 +86,8 @@ AppAsset::register($this);
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item mt-auto">
-                    <a class="nav-link nav-link-success" href="https://coreui.io">
-                        <i class="nav-icon cui-cloud-download"></i> Download CoreUI
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-danger" href="https://coreui.io/pro/">
-                        <i class="nav-icon cui-layers"></i> Try CoreUI
-                        <strong>PRO</strong>
-                    </a>
-                </li>
             </ul>
         </nav>
-        <button class="sidebar-minimizer brand-minimizer" type="button"></button>
     </div>
     <!-- End of Sidebar -->
 
