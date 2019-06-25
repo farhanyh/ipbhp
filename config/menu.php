@@ -1,5 +1,7 @@
 <?php
 
+// Configuration for app\widgets\SideMenu
+
 return [
     [
         'header' => 'Nav Title'
